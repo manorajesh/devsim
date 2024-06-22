@@ -1,12 +1,24 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MenuNavigation : MonoBehaviour
 {
     public TextMeshProUGUI consoleText;
     public BootupSequence bootupSequence;
-    public string[] menuOptions = { "Play", "Options", "Exit" };
+    public string[] menuOptions = { "./play", "cat .gameconfig", "shutdown now" };
     public int selectedOption = 0;
+    public Color selectedOptionColor = Color.yellow;
+    public Color unselectedOptionColor = Color.gray;
+    public string selectedOptionPrefix = "dev@desktopA2S01:~$";
+    public string lastLogin;
+
+    private void Start()
+    {
+        lastLogin = PlayerPrefs.GetString("LastLogin", "Never");
+        PlayerPrefs.SetString("LastLogin", System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+        PlayerPrefs.Save();
+    }
 
     void OnEnable()
     {
@@ -20,10 +32,7 @@ public class MenuNavigation : MonoBehaviour
 
     void Update()
     {
-        if (bootupSequence == null || !bootupSequence.isActiveAndEnabled)
-        {
-            HandleInput();
-        }
+        HandleInput();
     }
 
     void ShowMenu()
@@ -51,17 +60,20 @@ public class MenuNavigation : MonoBehaviour
 
     void DisplayMenu()
     {
-        consoleText.text = "";
+        consoleText.text = "Last login: " + lastLogin + "\n\n";
 
         for (int i = 0; i < menuOptions.Length; i++)
         {
             if (i == selectedOption)
             {
-                consoleText.text += "> " + menuOptions[i] + "\n";
+                // Applying a highlight background color, modify color and style as needed
+                // consoletext.text += "<mark=" + selectedoptioncolor + ">  " + menuoptions[i] + "</mark>\n";
+
+                consoleText.text += selectedOptionPrefix + " " + menuOptions[i] + "\n";
             }
             else
             {
-                consoleText.text += "  " + menuOptions[i] + "\n";
+                consoleText.text += "<color=#" + unselectedOptionColor.ToHexString() + ">" + new string(' ', selectedOptionPrefix.Length+1) + menuOptions[i] + "</color>\n";
             }
         }
     }

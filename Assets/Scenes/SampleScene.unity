@@ -491,6 +491,7 @@ GameObject:
   - component: {fileID: 1705816476}
   - component: {fileID: 1705816478}
   - component: {fileID: 1705816479}
+  - component: {fileID: 1705816480}
   m_Layer: 5
   m_Name: consoleText
   m_TagString: Untagged
@@ -627,103 +628,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consoleText: {fileID: 1705816476}
-  scrollSpeed: 0.1
-  maxLines: 30
-  bootupText: '[    0.804903@0] plat->state_name:default
-
-    [    0.808627@0] master_no
-    = 3, maseter_regs=fe1087e0
-
-    [    0.813400@0] set i2c pinmux error
-
-    [   
-    0.816829@0] aml-i2c i2c-C: add adapter aml_i2c_adap3(ed813088)
-
-    [    0.822761@0]
-    aml-i2c i2c-C: aml i2c bus driver.
-
-    [    0.827381@0] drivers/amlogic/i2c/aml_i2c.c
-    : aml_i2c_probe
-
-    [    0.832901@0] plat->state_name:default
-
-    [    0.836626@0]
-    master_no = 4, maseter_regs=fe108d20
-
-    [    0.841477@0] aml-i2c i2c-D: add
-    adapter aml_i2c_adap4(ed813888)
-
-    [    0.847370@0] aml-i2c i2c-D: aml i2c
-    bus driver.
-
-    [    0.852058@0] aml_pmu_init, 347
-
-    [    0.855107@0] call
-    aml_dvfs_init in
-
-    [    0.858601@0] [DVFS]aml_dvfs_probe, child name:vcck_dvfs
-
-    [   
-    0.863851@0] [DVFS]dvfs table of vcck_dvfs is:
-
-    [    0.868346@0] [DVFS]    
-    freq,    min_uV,    max_uV
-
-    [    0.873208@0] [DVFS]    96000,    825000,   
-    825000
-
-    [    0.878054@0] [DVFS]   192000,    825000,    825000
-
-    [   
-    0.882914@0] [DVFS]   312000,    825000,    825000
-
-    [    0.887762@0] [DVFS]  
-    408000,    825000,    825000
-
-    [    0.892622@0] [DVFS]   504000,    825000,   
-    825000
-
-    [    0.897470@0] [DVFS]   600000,    850000,    850000
-
-    [   
-    0.902330@0] [DVFS]   720000,    850000,    850000
-
-    [    0.907179@0] [DVFS]  
-    816000,    875000,    875000
-
-    [    0.912039@0] [DVFS]  1008000,    925000,   
-    925000
-
-    [    0.916887@0] [DVFS]  1200000,    975000,    975000
-
-    [   
-    0.921747@0] [DVFS]  1416000,   1025000,   1025000
-
-    [    0.926596@0] [DVFS] 
-    1608000,   1100000,   1100000
-
-    [    0.931456@0] [DVFS]  1800000,   1125000,  
-    1125000
-
-    [    0.936304@0] [DVFS]  1992000,   1125000,   1125000
-
-    [   
-    0.941230@0] hdmitx: system: amhdmitx_init
-
-    [    0.945319@0] hdmitx: system:
-    Ver: 2014Jan5a
-
-    [    0.949637@0] hdmitx: system: amhdmitx_probe
-
-    [   
-    0.954135@0] hdmitx: system: ALREADY init VIC = 21
-
-    [    0.959121@1] hdmitx:
-    system: reset intr mask
-
-    [    0.993885@0] bio: create slab <bio-0> at 0
-
-'
+  scrollSpeed: 0.0000001
+  pauseOnHeaderLength: 0.1
+  randomDelay: 0.0000001
+  maxLines: 36
+  bootupFilePath: Assets/BootupText.txt
 --- !u!114 &1705816479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -739,10 +648,27 @@ MonoBehaviour:
   consoleText: {fileID: 1705816476}
   bootupSequence: {fileID: 1705816478}
   menuOptions:
-  - Play
-  - Options
-  - Exit
+  - ./play
+  - cat .config
+  - shutdown now
   selectedOption: 0
+  selectedOptionColor: {r: 1, g: 1, b: 1, a: 1}
+  unselectedOptionColor: {r: 0, g: 0.3283019, b: 0.018113218, a: 1}
+  selectedOptionPrefix: dev@desktopA2S01:~$
+  lastLogin: 
+--- !u!114 &1705816480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705816473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e0884d556b6814d99df5a5c05c7f2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consoleText: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
