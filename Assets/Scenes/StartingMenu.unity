@@ -491,7 +491,6 @@ GameObject:
   - component: {fileID: 1705816476}
   - component: {fileID: 1705816478}
   - component: {fileID: 1705816479}
-  - component: {fileID: 1705816480}
   m_Layer: 5
   m_Name: consoleText
   m_TagString: Untagged
@@ -628,11 +627,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consoleText: {fileID: 1705816476}
-  scrollSpeed: 0.0000001
+  scrollSpeed: 1e-10
   pauseOnHeaderLength: 0.1
   randomDelay: 0.0000001
   maxLines: 36
-  bootupFilePath: Assets/BootupText.txt
+  bootupFilePath: Assets/Scenes/StartingMenu/BootupText.txt
 --- !u!114 &1705816479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -656,19 +655,6 @@ MonoBehaviour:
   unselectedOptionColor: {r: 0, g: 0.3283019, b: 0.018113218, a: 1}
   selectedOptionPrefix: dev@desktopA2S01:~$
   lastLogin: 
---- !u!114 &1705816480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705816473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2e0884d556b6814d99df5a5c05c7f2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  consoleText: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

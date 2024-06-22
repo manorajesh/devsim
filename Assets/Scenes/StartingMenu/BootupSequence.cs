@@ -10,7 +10,7 @@ public class BootupSequence : MonoBehaviour
     public float pauseOnHeaderLength = 0.5f;
     public float randomDelay = 0.1f;
     public int maxLines = 20;
-    public string bootupFilePath = "Assets/BootupText.txt";
+    public string bootupFilePath = "Assets/Scenes/StartingMenu/BootupText.txt";
 
     public delegate void BootupCompleteHandler();
     public event BootupCompleteHandler OnBootupComplete;

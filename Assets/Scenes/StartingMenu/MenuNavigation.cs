@@ -6,7 +6,7 @@ public class MenuNavigation : MonoBehaviour
 {
     public TextMeshProUGUI consoleText;
     public BootupSequence bootupSequence;
-    public string[] menuOptions = { "./play", "cat .gameconfig", "shutdown now" };
+    public string[] menuOptions = { "./play", "cat .config", "shutdown now" };
     public int selectedOption = 0;
     public Color selectedOptionColor = Color.yellow;
     public Color unselectedOptionColor = Color.gray;
@@ -66,9 +66,6 @@ public class MenuNavigation : MonoBehaviour
         {
             if (i == selectedOption)
             {
-                // Applying a highlight background color, modify color and style as needed
-                // consoletext.text += "<mark=" + selectedoptioncolor + ">  " + menuoptions[i] + "</mark>\n";
-
                 consoleText.text += selectedOptionPrefix + " " + menuOptions[i] + "\n";
             }
             else
@@ -80,17 +77,17 @@ public class MenuNavigation : MonoBehaviour
 
     void SelectOption()
     {
-        switch (menuOptions[selectedOption])
+        switch (selectedOption)
         {
-            case "Play":
+            case 0:
                 // Start the game
                 Debug.Log("Play selected");
                 break;
-            case "Options":
+            case 1:
                 // Open options menu
                 Debug.Log("Options selected");
                 break;
-            case "Exit":
+            case 2:
                 // Exit the game
                 Debug.Log("Exit selected");
                 Application.Quit();
