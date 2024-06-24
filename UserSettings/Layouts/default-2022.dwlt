@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3072
     height: 1636.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 106
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -192,11 +192,11 @@ MonoBehaviour:
     y: 0
     width: 438.4
     height: 1015.2
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -218,13 +218,13 @@ MonoBehaviour:
     y: 0
     width: 1943.9999
     height: 1015.2
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 14}
   - {fileID: 15}
   - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &10
@@ -248,12 +248,11 @@ MonoBehaviour:
     height: 571.60004
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,12 +274,1694 @@ MonoBehaviour:
     height: 1586.8
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 13}
   m_Panes:
+  - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2382.4001
+    y: 73.6
+    width: 688.6001
+    height: 1565.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 3
+  activeTab: 3
+  initProjectView:
+    hasCompletedInitialCheck: 0
+    isUserDataPresent: 0
+    lastCheckUserChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 0
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 
+      cacheType: 0
+    currentBranch:
+      name: 
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches: []
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
+    commitBody: 
+    commitMessage: 
+    currentBranch: master
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000001000000000000000
+        - 11034cfe7a22e504390caabf8c1822e4
+        - 98e29145d7c9aea419a70c24fc1fc7b1
+        - e2e0884d556b6814d99df5a5c05c7f2b
+        - d64bf97c6e4390345ad66d30bd0e8624
+        - 34b6a79e9a646df4fa9e3e5efd939e29
+        - 4f8739b8534520447ba0abccb284fe87
+        - 213a4396885d759498738014b8a9b91c
+        - aab28fff8bac43a448c4000409c3a5c4
+        - dcee4704373b75242bc132f8922a2f58
+        - 92c3aa53c89b7364fa8e872195e7904e
+        - f1eb849e0883cca4b9341433e25c90f9
+        - 8c9cfa26abfee488c85f1582747f6a02
+        - 0220aab0833d04faeb927d84ca6cc40c
+        - 681886c5eb7344803b6206f758bf0b1c
+        - f54d1bd14bd3ca042bd867b519fee8cc
+        - 243e06394e614e5d99fab26083b707fa
+        - 731f1baa9d144a9897cb1d341c2092b8
+        - 2e498d1c8094910479dc3e1b768306a4
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\BootupSequence.cs
+          label: BootupSequence.cs
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\BootupSequence.cs
+            fullPath: C:\Users\mano\code\devsim\Assets\BootupSequence.cs
+            projectPath: Assets\BootupSequence.cs
+            originalPath: 
+            indexStatus: 3
+            workTreeStatus: 0
+        - path: Assets\BootupText.txt
+          label: BootupText.txt
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\BootupText.txt
+            fullPath: C:\Users\mano\code\devsim\Assets\BootupText.txt
+            projectPath: Assets\BootupText.txt
+            originalPath: 
+            indexStatus: 4
+            workTreeStatus: 0
+        - path: Assets\ConfigurationMenu.cs
+          label: ConfigurationMenu.cs
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\ConfigurationMenu.cs
+            fullPath: C:\Users\mano\code\devsim\Assets\ConfigurationMenu.cs
+            projectPath: Assets\ConfigurationMenu.cs
+            originalPath: 
+            indexStatus: 4
+            workTreeStatus: 0
+        - path: Assets\ConsoleUtils.cs
+          label: ConsoleUtils.cs
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\ConsoleUtils.cs
+            fullPath: C:\Users\mano\code\devsim\Assets\ConsoleUtils.cs
+            projectPath: Assets\ConsoleUtils.cs
+            originalPath: 
+            indexStatus: 4
+            workTreeStatus: 0
+        - path: Assets\Fonts
+          label: Fonts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+          label: Mx437_DOS-V_re_ANK30 SDF.asset
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+            fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30
+              SDF.asset
+            projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+            originalPath: Assets\Mx437_DOS-V_re_ANK30 SDF.asset
+            indexStatus: 6
+            workTreeStatus: 0
+        - path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+          label: Mx437_DOS-V_re_ANK30.ttf
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+            fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+            projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+            originalPath: Assets\Mx437_DOS-V_re_ANK30.ttf
+            indexStatus: 6
+            workTreeStatus: 0
+        - path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+          label: VCR_OSD_MONO_1.001.ttf
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+            fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+            projectPath: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+            originalPath: Assets\VCR_OSD_MONO_1.001.ttf
+            indexStatus: 6
+            workTreeStatus: 0
+        - path: Assets\Fonts\VCR_OSD_MONO_1.asset
+          label: VCR_OSD_MONO_1.asset
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Fonts\VCR_OSD_MONO_1.asset
+            fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.asset
+            projectPath: Assets\Fonts\VCR_OSD_MONO_1.asset
+            originalPath: Assets\VCR_OSD_MONO_1.asset
+            indexStatus: 6
+            workTreeStatus: 0
+        - path: Assets\MenuNavigation.cs
+          label: MenuNavigation.cs
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\MenuNavigation.cs
+            fullPath: C:\Users\mano\code\devsim\Assets\MenuNavigation.cs
+            projectPath: Assets\MenuNavigation.cs
+            originalPath: 
+            indexStatus: 3
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: C:\Users\mano\code\devsim\Assets\Scenes\SampleScene.unity
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            indexStatus: 3
+            workTreeStatus: 0
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings\UniversalRP.asset
+          label: UniversalRP.asset
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Settings\UniversalRP.asset
+            fullPath: C:\Users\mano\code\devsim\Assets\Settings\UniversalRP.asset
+            projectPath: Assets\Settings\UniversalRP.asset
+            originalPath: 
+            indexStatus: 3
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro
+          label: TextMesh Pro
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources
+          label: Resources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials
+          label: Fonts & Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Fallback.asset
+          label: LiberationSans SDF - Fallback.asset
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+              SDF - Fallback.asset
+            fullPath: C:\Users\mano\code\devsim\Assets\TextMesh Pro\Resources\Fonts
+              & Materials\LiberationSans SDF - Fallback.asset
+            projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+              SDF - Fallback.asset
+            originalPath: 
+            indexStatus: 3
+            workTreeStatus: 0
+      folders:
+        keys:
+        - Assets
+        - Assets\Fonts
+        - Assets\Scenes
+        - Assets\Settings
+        - Assets\TextMesh Pro
+        - Assets\TextMesh Pro\Resources
+        - Assets\TextMesh Pro\Resources\Fonts & Materials
+        - ProjectSettings
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Fonts
+          label: Fonts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro
+          label: TextMesh Pro
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources
+          label: Resources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials
+          label: Fonts & Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\BootupSequence.cs
+        label: BootupSequence.cs
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\BootupSequence.cs
+          fullPath: C:\Users\mano\code\devsim\Assets\BootupSequence.cs
+          projectPath: Assets\BootupSequence.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - path: Assets\BootupText.txt
+        label: BootupText.txt
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\BootupText.txt
+          fullPath: C:\Users\mano\code\devsim\Assets\BootupText.txt
+          projectPath: Assets\BootupText.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\BootupText.txt.meta
+        label: BootupText.txt.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\BootupText.txt.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\BootupText.txt.meta
+          projectPath: Assets\BootupText.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\ConfigurationMenu.cs
+        label: ConfigurationMenu.cs
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\ConfigurationMenu.cs
+          fullPath: C:\Users\mano\code\devsim\Assets\ConfigurationMenu.cs
+          projectPath: Assets\ConfigurationMenu.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\ConfigurationMenu.cs.meta
+        label: ConfigurationMenu.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\ConfigurationMenu.cs.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\ConfigurationMenu.cs.meta
+          projectPath: Assets\ConfigurationMenu.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\ConsoleUtils.cs
+        label: ConsoleUtils.cs
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\ConsoleUtils.cs
+          fullPath: C:\Users\mano\code\devsim\Assets\ConsoleUtils.cs
+          projectPath: Assets\ConsoleUtils.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\ConsoleUtils.cs.meta
+        label: ConsoleUtils.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\ConsoleUtils.cs.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\ConsoleUtils.cs.meta
+          projectPath: Assets\ConsoleUtils.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Fonts.meta
+        label: Fonts.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts.meta
+          projectPath: Assets\Fonts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Fonts
+        label: Fonts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+        label: Mx437_DOS-V_re_ANK30 SDF.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+          projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+          originalPath: Assets\Mx437_DOS-V_re_ANK30 SDF.asset
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+        label: Mx437_DOS-V_re_ANK30 SDF.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+          projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+          originalPath: Assets\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+        label: Mx437_DOS-V_re_ANK30.ttf
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+          projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+          originalPath: Assets\Mx437_DOS-V_re_ANK30.ttf
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf.meta
+        label: Mx437_DOS-V_re_ANK30.ttf.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf.meta
+          projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf.meta
+          originalPath: Assets\Mx437_DOS-V_re_ANK30.ttf.meta
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+        label: VCR_OSD_MONO_1.001.ttf
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+          projectPath: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+          originalPath: Assets\VCR_OSD_MONO_1.001.ttf
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf.meta
+        label: VCR_OSD_MONO_1.001.ttf.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.001.ttf.meta
+          projectPath: Assets\Fonts\VCR_OSD_MONO_1.001.ttf.meta
+          originalPath: Assets\VCR_OSD_MONO_1.001.ttf.meta
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Fonts\VCR_OSD_MONO_1.asset
+        label: VCR_OSD_MONO_1.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\VCR_OSD_MONO_1.asset
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.asset
+          projectPath: Assets\Fonts\VCR_OSD_MONO_1.asset
+          originalPath: Assets\VCR_OSD_MONO_1.asset
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\Fonts\VCR_OSD_MONO_1.asset.meta
+        label: VCR_OSD_MONO_1.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Fonts\VCR_OSD_MONO_1.asset.meta
+          fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.asset.meta
+          projectPath: Assets\Fonts\VCR_OSD_MONO_1.asset.meta
+          originalPath: Assets\VCR_OSD_MONO_1.asset.meta
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets\MenuNavigation.cs
+        label: MenuNavigation.cs
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\MenuNavigation.cs
+          fullPath: C:\Users\mano\code\devsim\Assets\MenuNavigation.cs
+          projectPath: Assets\MenuNavigation.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\mano\code\devsim\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - path: Assets\Settings
+        label: Settings
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset
+        label: UniversalRP.asset
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\UniversalRP.asset
+          fullPath: C:\Users\mano\code\devsim\Assets\Settings\UniversalRP.asset
+          projectPath: Assets\Settings\UniversalRP.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro
+        label: TextMesh Pro
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources
+        label: Resources
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials
+        label: Fonts & Materials
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Fallback.asset
+        label: LiberationSans SDF - Fallback.asset
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Fallback.asset
+          fullPath: C:\Users\mano\code\devsim\Assets\TextMesh Pro\Resources\Fonts
+            & Materials\LiberationSans SDF - Fallback.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Fallback.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        label: BurstAotSettings_StandaloneWindows.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          fullPath: C:\Users\mano\code\devsim\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\CommonBurstAotSettings.json
+        label: CommonBurstAotSettings.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\CommonBurstAotSettings.json
+          fullPath: C:\Users\mano\code\devsim\ProjectSettings\CommonBurstAotSettings.json
+          projectPath: ProjectSettings\CommonBurstAotSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\mano\code\devsim\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: Assets\BootupSequence.cs
+      fullPath: C:\Users\mano\code\devsim\Assets\BootupSequence.cs
+      projectPath: Assets\BootupSequence.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\BootupText.txt
+      fullPath: C:\Users\mano\code\devsim\Assets\BootupText.txt
+      projectPath: Assets\BootupText.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BootupText.txt.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\BootupText.txt.meta
+      projectPath: Assets\BootupText.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\ConfigurationMenu.cs
+      fullPath: C:\Users\mano\code\devsim\Assets\ConfigurationMenu.cs
+      projectPath: Assets\ConfigurationMenu.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\ConfigurationMenu.cs.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\ConfigurationMenu.cs.meta
+      projectPath: Assets\ConfigurationMenu.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\ConsoleUtils.cs
+      fullPath: C:\Users\mano\code\devsim\Assets\ConsoleUtils.cs
+      projectPath: Assets\ConsoleUtils.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\ConsoleUtils.cs.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\ConsoleUtils.cs.meta
+      projectPath: Assets\ConsoleUtils.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts.meta
+      projectPath: Assets\Fonts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+      projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset
+      originalPath: Assets\Mx437_DOS-V_re_ANK30 SDF.asset
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+      projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+      originalPath: Assets\Mx437_DOS-V_re_ANK30 SDF.asset.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+      projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf
+      originalPath: Assets\Mx437_DOS-V_re_ANK30.ttf
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf.meta
+      projectPath: Assets\Fonts\Mx437_DOS-V_re_ANK30.ttf.meta
+      originalPath: Assets\Mx437_DOS-V_re_ANK30.ttf.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+      projectPath: Assets\Fonts\VCR_OSD_MONO_1.001.ttf
+      originalPath: Assets\VCR_OSD_MONO_1.001.ttf
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Fonts\VCR_OSD_MONO_1.001.ttf.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.001.ttf.meta
+      projectPath: Assets\Fonts\VCR_OSD_MONO_1.001.ttf.meta
+      originalPath: Assets\VCR_OSD_MONO_1.001.ttf.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Fonts\VCR_OSD_MONO_1.asset
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.asset
+      projectPath: Assets\Fonts\VCR_OSD_MONO_1.asset
+      originalPath: Assets\VCR_OSD_MONO_1.asset
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Fonts\VCR_OSD_MONO_1.asset.meta
+      fullPath: C:\Users\mano\code\devsim\Assets\Fonts\VCR_OSD_MONO_1.asset.meta
+      projectPath: Assets\Fonts\VCR_OSD_MONO_1.asset.meta
+      originalPath: Assets\VCR_OSD_MONO_1.asset.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\MenuNavigation.cs
+      fullPath: C:\Users\mano\code\devsim\Assets\MenuNavigation.cs
+      projectPath: Assets\MenuNavigation.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\mano\code\devsim\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Settings\UniversalRP.asset
+      fullPath: C:\Users\mano\code\devsim\Assets\Settings\UniversalRP.asset
+      projectPath: Assets\Settings\UniversalRP.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF -
+        Fallback.asset
+      fullPath: C:\Users\mano\code\devsim\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Fallback.asset
+      projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+        SDF - Fallback.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      fullPath: C:\Users\mano\code\devsim\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\CommonBurstAotSettings.json
+      fullPath: C:\Users\mano\code\devsim\ProjectSettings\CommonBurstAotSettings.json
+      projectPath: ProjectSettings\CommonBurstAotSettings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\mano\code\devsim\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    changedFilesText: 23 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2024-06-22T17:29:36.874-07:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2024-06-22T17:29:38.955-07:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries: []
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries: []
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: 
+      gitLfsPath: 
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+      installSettingsHidden: 0
+    hasRemote: 0
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: 
+    repositoryRemoteUrl: 
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 
+        cacheType: 0
+      configSettingsHidden: 0
+    repositorySettingsHidden: 0
+    generalSettingsHidden: 0
+    debugSettingsHidden: 0
+    uiSceneSettingsHidden: 0
+    uiProjectSettingsHidden: 0
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/manorajesh/devsim.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/manorajesh/devsim.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2024-06-21T16:57:20.730-07:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2024-06-21T17:15:36.731-07:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2024-06-21T17:15:36.722-07:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,7 +2008,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,9 +2045,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 44710000
-      m_LastClickedID: 28996
-      m_ExpandedIDs: 08fbffff3a710000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: bc7cffff687dffff5e7efffffa81ffff7482ffff56caffff1afbffff36710000a0770000247e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -390,7 +2071,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 46b7a0fefa812c44ca6fda42b4d7b176
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -838,7 +2519,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -936,7 +2617,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -970,7 +2651,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1015,7 +2696,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1023,16 +2704,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mano\code\devsim
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06730000
-    m_LastClickedID: 29446
-    m_ExpandedIDs: 000000000673000000ca9a3b
+    m_SelectedIDs: 0e730000
+    m_LastClickedID: 29454
+    m_ExpandedIDs: 00000000047300000e73000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1060,7 +2741,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000006730000
+    m_ExpandedIDs: 0000000004730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1104,7 +2785,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1116,37 +2797,3 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 199
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 1088.8
-    width: 2381.4
-    height: 550.60004
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
