@@ -122,6 +122,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &297861575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297861576}
+  - component: {fileID: 297861578}
+  - component: {fileID: 297861577}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &297861576
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297861575}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1455485619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &297861577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297861575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.18490559, g: 0.18490559, b: 0.18490559, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &297861578
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297861575}
+  m_CullTransparentMesh: 1
 --- !u!1 &343587727
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +346,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.06415099, g: 0.06415099, b: 0.06415099, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -470,6 +545,7 @@ RectTransform:
   m_LocalScale: {x: 0.0069444445, y: 0.0069444445, z: 0.0069444445}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 297861576}
   - {fileID: 1705816474}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -537,7 +613,85 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: consoleText...
+  m_text: '[    0.000000@0] Total memory is 2048 MiB
+
+    [    0.000000@0] Reserved
+    low memory from 0x6000000 to 0x1b9fffff, size: 346 Mi
+
+    [    0.000000@0]       
+    mesonfb0(low)           : 0x06100000 - 0x07900000 ( 24 )
+
+    [    0.000000@0]       
+    mesonfb1(low)           : 0x07900000 - 0x07a00000 (  1 )
+
+    [    0.000000@0]       
+    deinterlace0(high)      : 0x7dd00000 - 0x80000000 ( 35 )
+
+    [    0.000000@0]       
+    mesonstream0(low)       : 0x07a00000 - 0x09a00000 ( 32 )
+
+    [    0.000000@0]       
+    vdec0(low)      : 0x09a00000 - 0x19a00000 (256 MiB)
+
+    [    0.000000@0]       
+    ppmgr0(high)    : 0x7ad00000 - 0x7dd00000 ( 48 MiB)
+
+    [    0.000000@0]       
+    vdin10(low)     : 0x19a00000 - 0x1aa00000 ( 16 MiB)
+
+    [    0.000000@0]       
+    amlvideo20(low)         : 0x1aa00000 - 0x1ba00000 ( 16 )
+
+    [    0.000000@0]
+    hdmitx: cec: HDMI aml_read_reg32(P_AO_DEBUG_REG0):0x0
+
+    [    0.000000@0] hdmitx:
+    cec: HDMI hdmi_cec_func_config:0x0
+
+    [    0.000000@0] PID hash table entries:
+    2048 (order: 1, 8192 bytes)
+
+    [    0.000000@0] Dentry cache hash table entries:
+    65536 (order: 6, 262144 bytes)
+
+    [    0.000000@0] Inode-cache hash table entries:
+    32768 (order: 5, 131072 bytes)
+
+    [    0.000000@0] Memory: 64MB 16MB 1523MB
+    = 1603MB total
+
+    [    0.000000@0] Memory: 1587592k/1587592k available, 53880k
+    reserved, 1233920Km
+
+    [    0.000000@0] Virtual kernel memory layout:
+
+    [   
+    0.000000@0]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+
+    [    0.000000@0]    
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+
+    [    0.000000@0]     vmalloc
+    : 0xf0000000 - 0xff000000   ( 240 MB)
+
+    [    0.000000@0]     lowmem  : 0xc0000000
+    - 0xef800000   ( 760 MB)
+
+    [    0.000000@0]     pkmap   : 0xbfe00000 - 0xc0000000  
+    (   2 MB)
+
+    [    0.000000@0]     modules : 0xbf000000 - 0xbfe00000   (  14
+    MB)
+
+    [    0.000000@0]       .text : 0xc0008000 - 0xc09a53dc   (9845 kB)
+
+    [   
+    0.000000@0]       .init : 0xc09a6000 - 0xc09dd200   ( 221 kB)
+
+    [    0.000000@0]      
+    .data : 0xc09de000 - 0xc0a68400   ( 553 kB)
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f8739b8534520447ba0abccb284fe87, type: 2}
   m_sharedMaterial: {fileID: -8958145236933787623, guid: 4f8739b8534520447ba0abccb284fe87, type: 2}
