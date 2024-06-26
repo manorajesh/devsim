@@ -1,31 +1,27 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
-using System.Collections.Generic;
 
 public class NumberGenerator : MonoBehaviour
 {
     public GameObject numberPrefab;
-    public int spacing = 100;
-    private int screenWidth;
-    private int screenHeight;
-
-    private HashSet<Vector2> generatedPositions = new HashSet<Vector2>();
+    public int numberCount = 100;
+    public int screenWidth = 1280;
+    public int screenHeight = 720;
+    public float updateInterval = 0.05f;
+    
 
     void Start()
     {
-        screenWidth = Screen.width;
-        screenHeight = Screen.height;
-        GenerateInitialNumbers();
+        StartCoroutine(PopulateNumberField());
     }
 
-    void GenerateInitialNumbers()
+    IEnumerator PopulateNumberField()
     {
-        for (int x = -screenWidth; x < screenWidth; x += spacing)
+        for (int i = 0; i < numberCount; i++)
         {
-            for (int y = -screenHeight; y < screenHeight; y += spacing)
-            {
-                CreateNumberAtPosition(new Vector2(x, y));
-            }
+            CreateNumberAtPosition(new Vector2(Random.Range(-screenWidth, screenWidth), Random.Range(-screenHeight, screenHeight)));
+            yield return new WaitForSeconds(updateInterval);
         }
     }
 
@@ -34,6 +30,5 @@ public class NumberGenerator : MonoBehaviour
         GameObject number = Instantiate(numberPrefab, transform);
         number.GetComponent<RectTransform>().anchoredPosition = position;
         number.GetComponentInChildren<TextMeshProUGUI>().text = Random.Range(0, 100).ToString();
-        generatedPositions.Add(position);
     }
 }

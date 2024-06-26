@@ -1,6 +1,7 @@
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuNavigation : MonoBehaviour
 {
@@ -82,6 +83,7 @@ public class MenuNavigation : MonoBehaviour
             case 0:
                 // Start the game
                 Debug.Log("Play selected");
+                SceneManager.LoadScene("Gameplay");
                 break;
             case 1:
                 // Open options menu

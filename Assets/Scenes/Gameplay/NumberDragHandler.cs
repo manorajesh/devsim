@@ -6,6 +6,7 @@ public class NumberDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler,
     private Rigidbody2D rb;
     private Vector3 offset;
     private Vector3 startPosition;
+    public bool isBeingDragged = false;
 
     void Awake()
     {
@@ -17,6 +18,7 @@ public class NumberDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler,
         offset = transform.position - Camera.main.ScreenToWorldPoint(eventData.position);
         startPosition = transform.position;
         rb.isKinematic = true;
+        isBeingDragged = true;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -30,5 +32,6 @@ public class NumberDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler,
     {
         rb.isKinematic = false;
         rb.velocity = Vector2.zero;
+        isBeingDragged = false;
     }
 }
